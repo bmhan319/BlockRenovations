@@ -347,7 +347,7 @@ body {
 /* -----Pic-Lg Section----- */
 .section-pic-lg {
   width: 100%;
-  height: auto;
+  height: 570px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -396,7 +396,7 @@ body {
 
 .section-light-grey {
   width: 100%;
-  height: auto;
+  height: 705px;
   margin: 0;
   padding: 0;
   background-color: #e7e7e7;
@@ -414,7 +414,7 @@ body {
 }
 
 .light-grey-col1 {
-  height: auto;
+  height: 481px;
   width: 25%;
   max-width: 280px;
   padding-right: 30px;
@@ -447,8 +447,8 @@ body {
 }
 
 .light-grey-text1 {
-  height: auto;
-  padding: 0 18px 0px 0;
+  height: 220px;
+  padding: 0 18px 60px 0;
   font-weight: 300;
   font-size: 1rem;
   line-height: 25px;
