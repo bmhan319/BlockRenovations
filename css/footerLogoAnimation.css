@@ -1,0 +1,2618 @@
+/* -----Footer Logo Animation Section----- */
+.letter-B {
+  position: relative;
+  animation: letterB 7s cubic-bezier(0.07, 0.83, 0.55, 0.99) infinite;
+  -webkit-animation: letterB 7s cubic-bezier(0.07, 0.83, 0.55, 0.99) infinite;
+  -moz-animation: letterB 7s cubic-bezier(0.07, 0.83, 0.55, 0.99) infinite;
+}
+
+@keyframes letterB {
+  from {
+    top: 0px;
+  }
+  04.5% {
+    top: -20px;
+    left: 0px;
+  }
+  09.0% {
+    top: -20px;
+    left: 0px;
+  }
+  13.5% {
+    top: -20px;
+    left: 0px;
+  }
+  18.0% {
+    top: -20px;
+    left: 0px;
+  }
+  22.5% {
+    top: -20px;
+    left: 0px;
+  }
+  27.0% {
+    top: -20px;
+    left: 0px;
+  }
+  31.5% {
+    top: -40px;
+    left: 0px;
+  }
+  36.0% {
+    top: -40px;
+    left: 0px;
+  }
+  40.5% {
+    top: -40px;
+    left: 58px;
+  }
+  45.0% {
+    top: -40px;
+    left: 58px;
+  }
+  49.5% {
+    top: -80px;
+    left: 58px;
+  }
+  54.0% {
+    top: -80px;
+    left: 58px;
+  }
+  58.5% {
+    top: -80px;
+    left: 58px;
+  }
+  63.0% {
+    top: -80px;
+    left: 58px;
+  }
+  67.5% {
+    top: -80px;
+    left: 32px;
+  }
+  72.0% {
+    top: -80px;
+    left: 32px;
+  }
+  76.5% {
+    top: -80px;
+    left: 0px;
+  }
+  81.0% {
+    top: -80px;
+    left: 0px;
+  }
+  85.5% {
+    top: 0px;
+    left: 0px;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+  }
+}
+
+@-moz-keyframes letterB {
+  from {
+    top: 0px;
+  }
+  04.5% {
+    top: -20px;
+    left: 0px;
+  }
+  09.0% {
+    top: -20px;
+    left: 0px;
+  }
+  13.5% {
+    top: -20px;
+    left: 0px;
+  }
+  18.0% {
+    top: -20px;
+    left: 0px;
+  }
+  22.5% {
+    top: -20px;
+    left: 0px;
+  }
+  27.0% {
+    top: -20px;
+    left: 0px;
+  }
+  31.5% {
+    top: -40px;
+    left: 0px;
+  }
+  36.0% {
+    top: -40px;
+    left: 0px;
+  }
+  40.5% {
+    top: -40px;
+    left: 58px;
+  }
+  45.0% {
+    top: -40px;
+    left: 58px;
+  }
+  49.5% {
+    top: -80px;
+    left: 58px;
+  }
+  54.0% {
+    top: -80px;
+    left: 58px;
+  }
+  58.5% {
+    top: -80px;
+    left: 58px;
+  }
+  63.0% {
+    top: -80px;
+    left: 58px;
+  }
+  67.5% {
+    top: -80px;
+    left: 32px;
+  }
+  72.0% {
+    top: -80px;
+    left: 32px;
+  }
+  76.5% {
+    top: -80px;
+    left: 0px;
+  }
+  81.0% {
+    top: -80px;
+    left: 0px;
+  }
+  85.5% {
+    top: 0px;
+    left: 0px;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+  }
+}
+
+@-webkit-keyframes letterB {
+  from {
+    top: 0px;
+  }
+  04.5% {
+    top: -20px;
+    left: 0px;
+  }
+  09.0% {
+    top: -20px;
+    left: 0px;
+  }
+  13.5% {
+    top: -20px;
+    left: 0px;
+  }
+  18.0% {
+    top: -20px;
+    left: 0px;
+  }
+  22.5% {
+    top: -20px;
+    left: 0px;
+  }
+  27.0% {
+    top: -20px;
+    left: 0px;
+  }
+  31.5% {
+    top: -40px;
+    left: 0px;
+  }
+  36.0% {
+    top: -40px;
+    left: 0px;
+  }
+  40.5% {
+    top: -40px;
+    left: 58px;
+  }
+  45.0% {
+    top: -40px;
+    left: 58px;
+  }
+  49.5% {
+    top: -80px;
+    left: 58px;
+  }
+  54.0% {
+    top: -80px;
+    left: 58px;
+  }
+  58.5% {
+    top: -80px;
+    left: 58px;
+  }
+  63.0% {
+    top: -80px;
+    left: 58px;
+  }
+  67.5% {
+    top: -80px;
+    left: 32px;
+  }
+  72.0% {
+    top: -80px;
+    left: 32px;
+  }
+  76.5% {
+    top: -80px;
+    left: 0px;
+  }
+  81.0% {
+    top: -80px;
+    left: 0px;
+  }
+  85.5% {
+    top: 0px;
+    left: 0px;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+  }
+}
+
+.letter-L {
+  position: relative;
+  animation: letterL 7s cubic-bezier(0.07, 0.83, 0.55, 0.99) infinite;
+  -webkit-animation: letterL 7s cubic-bezier(0.07, 0.83, 0.55, 0.99) infinite;
+  -moz-animation: letterL 7s cubic-bezier(0.07, 0.83, 0.55, 0.99) infinite;
+}
+
+@keyframes letterL {
+  from {
+    top: 0px;
+  }
+  04.5% {
+    top: 20px;
+    left: 0px;
+  }
+  09.0% {
+    top: 20px;
+    left: 0px;
+  }
+  13.5% {
+    top: -20px;
+    left: 0px;
+  }
+  18.0% {
+    top: -20px;
+    left: 0px;
+  }
+  22.5% {
+    top: -20px;
+    left: 0px;
+  }
+  27.0% {
+    top: -20px;
+    left: 0px;
+  }
+  31.5% {
+    top: -40px;
+    left: 0px;
+  }
+  36.0% {
+    top: -40px;
+    left: 0px;
+  }
+  40.5% {
+    top: -40px;
+    left: 58px;
+  }
+  45.0% {
+    top: -40px;
+    left: 58px;
+  }
+  49.5% {
+    top: -40px;
+    left: 58px;
+  }
+  54.0% {
+    top: -40px;
+    left: 58px;
+  }
+  58.5% {
+    top: -40px;
+    left: 30px;
+  }
+  63.0% {
+    top: -40px;
+    left: 30px;
+  }
+  67.5% {
+    top: -40px;
+    left: 64px;
+  }
+  72.0% {
+    top: -40px;
+    left: 64px;
+  }
+  76.5% {
+    top: -40px;
+    left: 0px;
+  }
+  81.0% {
+    top: -40px;
+    left: 0px;
+  }
+  85.5% {
+    top: 0px;
+    left: 0px;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+  }
+}
+
+@-moz-keyframes letterL {
+  from {
+    top: 0px;
+  }
+  04.5% {
+    top: 20px;
+    left: 0px;
+  }
+  09.0% {
+    top: 20px;
+    left: 0px;
+  }
+  13.5% {
+    top: -20px;
+    left: 0px;
+  }
+  18.0% {
+    top: -20px;
+    left: 0px;
+  }
+  22.5% {
+    top: -20px;
+    left: 0px;
+  }
+  27.0% {
+    top: -20px;
+    left: 0px;
+  }
+  31.5% {
+    top: -40px;
+    left: 0px;
+  }
+  36.0% {
+    top: -40px;
+    left: 0px;
+  }
+  40.5% {
+    top: -40px;
+    left: 58px;
+  }
+  45.0% {
+    top: -40px;
+    left: 58px;
+  }
+  49.5% {
+    top: -40px;
+    left: 58px;
+  }
+  54.0% {
+    top: -40px;
+    left: 58px;
+  }
+  58.5% {
+    top: -40px;
+    left: 30px;
+  }
+  63.0% {
+    top: -40px;
+    left: 30px;
+  }
+  67.5% {
+    top: -40px;
+    left: 64px;
+  }
+  72.0% {
+    top: -40px;
+    left: 64px;
+  }
+  76.5% {
+    top: -40px;
+    left: 0px;
+  }
+  81.0% {
+    top: -40px;
+    left: 0px;
+  }
+  85.5% {
+    top: 0px;
+    left: 0px;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+  }
+}
+
+@-webkit-keyframes letterL {
+  from {
+    top: 0px;
+  }
+  04.5% {
+    top: 20px;
+    left: 0px;
+  }
+  09.0% {
+    top: 20px;
+    left: 0px;
+  }
+  13.5% {
+    top: -20px;
+    left: 0px;
+  }
+  18.0% {
+    top: -20px;
+    left: 0px;
+  }
+  22.5% {
+    top: -20px;
+    left: 0px;
+  }
+  27.0% {
+    top: -20px;
+    left: 0px;
+  }
+  31.5% {
+    top: -40px;
+    left: 0px;
+  }
+  36.0% {
+    top: -40px;
+    left: 0px;
+  }
+  40.5% {
+    top: -40px;
+    left: 58px;
+  }
+  45.0% {
+    top: -40px;
+    left: 58px;
+  }
+  49.5% {
+    top: -40px;
+    left: 58px;
+  }
+  54.0% {
+    top: -40px;
+    left: 58px;
+  }
+  58.5% {
+    top: -40px;
+    left: 30px;
+  }
+  63.0% {
+    top: -40px;
+    left: 30px;
+  }
+  67.5% {
+    top: -40px;
+    left: 64px;
+  }
+  72.0% {
+    top: -40px;
+    left: 64px;
+  }
+  76.5% {
+    top: -40px;
+    left: 0px;
+  }
+  81.0% {
+    top: -40px;
+    left: 0px;
+  }
+  85.5% {
+    top: 0px;
+    left: 0px;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+  }
+}
+
+.letter-O {
+  position: relative;
+  animation: letterO 7s cubic-bezier(0.07, 0.83, 0.55, 0.99) infinite;
+  -webkit-animation: letterO 7s cubic-bezier(0.07, 0.83, 0.55, 0.99) infinite;
+  -moz-animation: letterO 7s cubic-bezier(0.07, 0.83, 0.55, 0.99) infinite;
+}
+
+@keyframes letterO {
+  from {
+    top: 0px;
+  }
+  04.5% {
+    top: -20px;
+    left: 0px;
+  }
+  09.0% {
+    top: -20px;
+    left: 0px;
+  }
+  13.5% {
+    top: -20px;
+    left: 0px;
+  }
+  18.0% {
+    top: -20px;
+    left: 0px;
+  }
+  22.5% {
+    top: -20px;
+    left: 0px;
+  }
+  27.0% {
+    top: -20px;
+    left: 0px;
+  }
+  31.5% {
+    top: 0px;
+    left: 0px;
+  }
+  36.0% {
+    top: 0px;
+    left: 0px;
+  }
+  40.5% {
+    top: 0px;
+    left: 0px;
+  }
+  45.0% {
+    top: 0px;
+    left: 0px;
+  }
+  49.5% {
+    top: 0px;
+    left: 0px;
+  }
+  54.0% {
+    top: 0px;
+    left: 0px;
+  }
+  58.5% {
+    top: 0px;
+    left: 0px;
+  }
+  63.0% {
+    top: 0px;
+    left: 0px;
+  }
+  67.5% {
+    top: 0px;
+    left: -25px;
+  }
+  72.0% {
+    top: 0px;
+    left: -25px;
+  }
+  76.5% {
+    top: 0px;
+    left: 0px;
+  }
+  81.0% {
+    top: 0px;
+    left: 0px;
+  }
+  85.5% {
+    top: 0px;
+    left: 0px;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+  }
+}
+
+@-moz-keyframes letterO {
+  from {
+    top: 0px;
+  }
+  04.5% {
+    top: -20px;
+    left: 0px;
+  }
+  09.0% {
+    top: -20px;
+    left: 0px;
+  }
+  13.5% {
+    top: -20px;
+    left: 0px;
+  }
+  18.0% {
+    top: -20px;
+    left: 0px;
+  }
+  22.5% {
+    top: -20px;
+    left: 0px;
+  }
+  27.0% {
+    top: -20px;
+    left: 0px;
+  }
+  31.5% {
+    top: 0px;
+    left: 0px;
+  }
+  36.0% {
+    top: 0px;
+    left: 0px;
+  }
+  40.5% {
+    top: 0px;
+    left: 0px;
+  }
+  45.0% {
+    top: 0px;
+    left: 0px;
+  }
+  49.5% {
+    top: 0px;
+    left: 0px;
+  }
+  54.0% {
+    top: 0px;
+    left: 0px;
+  }
+  58.5% {
+    top: 0px;
+    left: 0px;
+  }
+  63.0% {
+    top: 0px;
+    left: 0px;
+  }
+  67.5% {
+    top: 0px;
+    left: -25px;
+  }
+  72.0% {
+    top: 0px;
+    left: -25px;
+  }
+  76.5% {
+    top: 0px;
+    left: 0px;
+  }
+  81.0% {
+    top: 0px;
+    left: 0px;
+  }
+  85.5% {
+    top: 0px;
+    left: 0px;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+  }
+}
+
+@-webkit-keyframes letterO {
+  from {
+    top: 0px;
+  }
+  04.5% {
+    top: -20px;
+    left: 0px;
+  }
+  09.0% {
+    top: -20px;
+    left: 0px;
+  }
+  13.5% {
+    top: -20px;
+    left: 0px;
+  }
+  18.0% {
+    top: -20px;
+    left: 0px;
+  }
+  22.5% {
+    top: -20px;
+    left: 0px;
+  }
+  27.0% {
+    top: -20px;
+    left: 0px;
+  }
+  31.5% {
+    top: 0px;
+    left: 0px;
+  }
+  36.0% {
+    top: 0px;
+    left: 0px;
+  }
+  40.5% {
+    top: 0px;
+    left: 0px;
+  }
+  45.0% {
+    top: 0px;
+    left: 0px;
+  }
+  49.5% {
+    top: 0px;
+    left: 0px;
+  }
+  54.0% {
+    top: 0px;
+    left: 0px;
+  }
+  58.5% {
+    top: 0px;
+    left: 0px;
+  }
+  63.0% {
+    top: 0px;
+    left: 0px;
+  }
+  67.5% {
+    top: 0px;
+    left: -25px;
+  }
+  72.0% {
+    top: 0px;
+    left: -25px;
+  }
+  76.5% {
+    top: 0px;
+    left: 0px;
+  }
+  81.0% {
+    top: 0px;
+    left: 0px;
+  }
+  85.5% {
+    top: 0px;
+    left: 0px;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+  }
+}
+
+.letter-C {
+  position: relative;
+  animation: letterC 7s cubic-bezier(0.07, 0.83, 0.55, 0.99) infinite;
+  -webkit-animation: letterC 7s cubic-bezier(0.07, 0.83, 0.55, 0.99) infinite;
+  -moz-animation: letterC 7s cubic-bezier(0.07, 0.83, 0.55, 0.99) infinite;
+}
+
+@keyframes letterC {
+  from {
+    top: 0px;
+  }
+  04.5% {
+    top: 20px;
+    left: 0px;
+  }
+  09.0% {
+    top: 20px;
+    left: 0px;
+  }
+  13.5% {
+    top: 20px;
+    left: 0px;
+  }
+  18.0% {
+    top: 20px;
+    left: 0px;
+  }
+  22.5% {
+    top: 20px;
+    left: -34px;
+  }
+  27.0% {
+    top: 20px;
+    left: -34px;
+  }
+  31.5% {
+    top: 40px;
+    left: -34px;
+  }
+  36.0% {
+    top: 40px;
+    left: -34px;
+  }
+  40.5% {
+    top: 40px;
+    left: -66px;
+  }
+  45.0% {
+    top: 40px;
+    left: -66px;
+  }
+  49.5% {
+    top: 40px;
+    left: -66px;
+  }
+  54.0% {
+    top: 40px;
+    left: -66px;
+  }
+  58.5% {
+    top: 40px;
+    left: -34px;
+  }
+  63.0% {
+    top: 40px;
+    left: -34px;
+  }
+  67.5% {
+    top: 40px;
+    left: 0px;
+  }
+  72.0% {
+    top: 40px;
+    left: 0px;
+  }
+  76.5% {
+    top: 40px;
+    left: 0px;
+  }
+  81.0% {
+    top: 40px;
+    left: 0px;
+  }
+  85.5% {
+    top: 0px;
+    left: 0px;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+  }
+}
+
+@-moz-keyframes letterC {
+  from {
+    top: 0px;
+  }
+  04.5% {
+    top: 20px;
+    left: 0px;
+  }
+  09.0% {
+    top: 20px;
+    left: 0px;
+  }
+  13.5% {
+    top: 20px;
+    left: 0px;
+  }
+  18.0% {
+    top: 20px;
+    left: 0px;
+  }
+  22.5% {
+    top: 20px;
+    left: -34px;
+  }
+  27.0% {
+    top: 20px;
+    left: -34px;
+  }
+  31.5% {
+    top: 40px;
+    left: -34px;
+  }
+  36.0% {
+    top: 40px;
+    left: -34px;
+  }
+  40.5% {
+    top: 40px;
+    left: -66px;
+  }
+  45.0% {
+    top: 40px;
+    left: -66px;
+  }
+  49.5% {
+    top: 40px;
+    left: -66px;
+  }
+  54.0% {
+    top: 40px;
+    left: -66px;
+  }
+  58.5% {
+    top: 40px;
+    left: -34px;
+  }
+  63.0% {
+    top: 40px;
+    left: -34px;
+  }
+  67.5% {
+    top: 40px;
+    left: 0px;
+  }
+  72.0% {
+    top: 40px;
+    left: 0px;
+  }
+  76.5% {
+    top: 40px;
+    left: 0px;
+  }
+  81.0% {
+    top: 40px;
+    left: 0px;
+  }
+  85.5% {
+    top: 0px;
+    left: 0px;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+  }
+}
+
+@-webkit-keyframes letterC {
+  from {
+    top: 0px;
+  }
+  04.5% {
+    top: 20px;
+    left: 0px;
+  }
+  09.0% {
+    top: 20px;
+    left: 0px;
+  }
+  13.5% {
+    top: 20px;
+    left: 0px;
+  }
+  18.0% {
+    top: 20px;
+    left: 0px;
+  }
+  22.5% {
+    top: 20px;
+    left: -34px;
+  }
+  27.0% {
+    top: 20px;
+    left: -34px;
+  }
+  31.5% {
+    top: 40px;
+    left: -34px;
+  }
+  36.0% {
+    top: 40px;
+    left: -34px;
+  }
+  40.5% {
+    top: 40px;
+    left: -66px;
+  }
+  45.0% {
+    top: 40px;
+    left: -66px;
+  }
+  49.5% {
+    top: 40px;
+    left: -66px;
+  }
+  54.0% {
+    top: 40px;
+    left: -66px;
+  }
+  58.5% {
+    top: 40px;
+    left: -34px;
+  }
+  63.0% {
+    top: 40px;
+    left: -34px;
+  }
+  67.5% {
+    top: 40px;
+    left: 0px;
+  }
+  72.0% {
+    top: 40px;
+    left: 0px;
+  }
+  76.5% {
+    top: 40px;
+    left: 0px;
+  }
+  81.0% {
+    top: 40px;
+    left: 0px;
+  }
+  85.5% {
+    top: 0px;
+    left: 0px;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+  }
+}
+
+.letter-K {
+  position: relative;
+  animation: letterK 7s cubic-bezier(0.07, 0.83, 0.55, 0.99) infinite;
+  -webkit-animation: letterK 7s cubic-bezier(0.07, 0.83, 0.55, 0.99) infinite;
+  -moz-animation: letterK 7s cubic-bezier(0.07, 0.83, 0.55, 0.99) infinite;
+}
+
+@keyframes letterK {
+  from {
+    top: 0px;
+  }
+  04.5% {
+    top: -20px;
+    left: 0px;
+  }
+  09.0% {
+    top: -20px;
+    left: 0px;
+  }
+  13.5% {
+    top: 20px;
+    left: 0px;
+  }
+  18.0% {
+    top: 20px;
+    left: 0px;
+  }
+  22.5% {
+    top: 20px;
+    left: -34px;
+  }
+  27.0% {
+    top: 20px;
+    left: -34px;
+  }
+  31.5% {
+    top: 40px;
+    left: -34px;
+  }
+  36.0% {
+    top: 40px;
+    left: -34px;
+  }
+  40.5% {
+    top: 40px;
+    left: -66px;
+  }
+  45.0% {
+    top: 40px;
+    left: -66px;
+  }
+  49.5% {
+    top: 80px;
+    left: -66px;
+  }
+  54.0% {
+    top: 80px;
+    left: -66px;
+  }
+  58.5% {
+    top: 80px;
+    left: -66px;
+  }
+  63.0% {
+    top: 80px;
+    left: -66px;
+  }
+  67.5% {
+    top: 80px;
+    left: -95px;
+  }
+  72.0% {
+    top: 80px;
+    left: -95px;
+  }
+  76.5% {
+    top: 80px;
+    left: 0px;
+  }
+  81.0% {
+    top: 80px;
+    left: 0px;
+  }
+  85.5% {
+    top: 0px;
+    left: 0px;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+  }
+}
+
+@-moz-keyframes letterK {
+  from {
+    top: 0px;
+  }
+  04.5% {
+    top: -20px;
+    left: 0px;
+  }
+  09.0% {
+    top: -20px;
+    left: 0px;
+  }
+  13.5% {
+    top: 20px;
+    left: 0px;
+  }
+  18.0% {
+    top: 20px;
+    left: 0px;
+  }
+  22.5% {
+    top: 20px;
+    left: -34px;
+  }
+  27.0% {
+    top: 20px;
+    left: -34px;
+  }
+  31.5% {
+    top: 40px;
+    left: -34px;
+  }
+  36.0% {
+    top: 40px;
+    left: -34px;
+  }
+  40.5% {
+    top: 40px;
+    left: -66px;
+  }
+  45.0% {
+    top: 40px;
+    left: -66px;
+  }
+  49.5% {
+    top: 80px;
+    left: -66px;
+  }
+  54.0% {
+    top: 80px;
+    left: -66px;
+  }
+  58.5% {
+    top: 80px;
+    left: -66px;
+  }
+  63.0% {
+    top: 80px;
+    left: -66px;
+  }
+  67.5% {
+    top: 80px;
+    left: -95px;
+  }
+  72.0% {
+    top: 80px;
+    left: -95px;
+  }
+  76.5% {
+    top: 80px;
+    left: 0px;
+  }
+  81.0% {
+    top: 80px;
+    left: 0px;
+  }
+  85.5% {
+    top: 0px;
+    left: 0px;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+  }
+}
+
+@-webkit-keyframes letterK {
+  from {
+    top: 0px;
+  }
+  04.5% {
+    top: -20px;
+    left: 0px;
+  }
+  09.0% {
+    top: -20px;
+    left: 0px;
+  }
+  13.5% {
+    top: 20px;
+    left: 0px;
+  }
+  18.0% {
+    top: 20px;
+    left: 0px;
+  }
+  22.5% {
+    top: 20px;
+    left: -34px;
+  }
+  27.0% {
+    top: 20px;
+    left: -34px;
+  }
+  31.5% {
+    top: 40px;
+    left: -34px;
+  }
+  36.0% {
+    top: 40px;
+    left: -34px;
+  }
+  40.5% {
+    top: 40px;
+    left: -66px;
+  }
+  45.0% {
+    top: 40px;
+    left: -66px;
+  }
+  49.5% {
+    top: 80px;
+    left: -66px;
+  }
+  54.0% {
+    top: 80px;
+    left: -66px;
+  }
+  58.5% {
+    top: 80px;
+    left: -66px;
+  }
+  63.0% {
+    top: 80px;
+    left: -66px;
+  }
+  67.5% {
+    top: 80px;
+    left: -95px;
+  }
+  72.0% {
+    top: 80px;
+    left: -95px;
+  }
+  76.5% {
+    top: 80px;
+    left: 0px;
+  }
+  81.0% {
+    top: 80px;
+    left: 0px;
+  }
+  85.5% {
+    top: 0px;
+    left: 0px;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+  }
+}
+
+/* -----Responsive Logo Animation Section----- */
+@media only screen and (max-width: 989px) {
+  @keyframes letterB {
+    from {
+      top: 0px;
+    }
+    04.5% {
+      top: -15px;
+      left: 0px;
+    }
+    09.0% {
+      top: -15px;
+      left: 0px;
+    }
+    13.5% {
+      top: -15px;
+      left: 0px;
+    }
+    18.0% {
+      top: -15px;
+      left: 0px;
+    }
+    22.5% {
+      top: -15px;
+      left: 0px;
+    }
+    27.0% {
+      top: -15px;
+      left: 0px;
+    }
+    31.5% {
+      top: -30px;
+      left: 0px;
+    }
+    36.0% {
+      top: -30px;
+      left: 0px;
+    }
+    40.5% {
+      top: -30px;
+      left: 40px;
+    }
+    45.0% {
+      top: -30px;
+      left: 40px;
+    }
+    49.5% {
+      top: -60px;
+      left: 40px;
+    }
+    54.0% {
+      top: -60px;
+      left: 40px;
+    }
+    58.5% {
+      top: -60px;
+      left: 40px;
+    }
+    63.0% {
+      top: -60px;
+      left: 40px;
+    }
+    67.5% {
+      top: -60px;
+      left: 20px;
+    }
+    72.0% {
+      top: -60px;
+      left: 20px;
+    }
+    76.5% {
+      top: -60px;
+      left: 0px;
+    }
+    81.0% {
+      top: -60px;
+      left: 0px;
+    }
+    85.5% {
+      top: 0px;
+      left: 0px;
+    }
+    100% {
+      top: 0px;
+      left: 0px;
+    }
+  }
+
+  @keyframes letterL {
+    from {
+      top: 0px;
+    }
+    04.5% {
+      top: 15px;
+      left: 0px;
+    }
+    09.0% {
+      top: 15px;
+      left: 0px;
+    }
+    13.5% {
+      top: -15px;
+      left: 0px;
+    }
+    18.0% {
+      top: -15px;
+      left: 0px;
+    }
+    22.5% {
+      top: -15px;
+      left: 0px;
+    }
+    27.0% {
+      top: -15px;
+      left: 0px;
+    }
+    31.5% {
+      top: -30px;
+      left: 0px;
+    }
+    36.0% {
+      top: -30px;
+      left: 0px;
+    }
+    40.5% {
+      top: -30px;
+      left: 42px;
+    }
+    45.0% {
+      top: -30px;
+      left: 42px;
+    }
+    49.5% {
+      top: -30px;
+      left: 42px;
+    }
+    54.0% {
+      top: -30px;
+      left: 42px;
+    }
+    58.5% {
+      top: -30px;
+      left: 20px;
+    }
+    63.0% {
+      top: -30px;
+      left: 20px;
+    }
+    67.5% {
+      top: -30px;
+      left: 46px;
+    }
+    72.0% {
+      top: -30px;
+      left: 46px;
+    }
+    76.5% {
+      top: -30px;
+      left: 0px;
+    }
+    81.0% {
+      top: -30px;
+      left: 0px;
+    }
+    85.5% {
+      top: 0px;
+      left: 0px;
+    }
+    100% {
+      top: 0px;
+      left: 0px;
+    }
+  }
+
+  @keyframes letterO {
+    from {
+      top: 0px;
+    }
+    04.5% {
+      top: -15px;
+      left: 0px;
+    }
+    09.0% {
+      top: -15px;
+      left: 0px;
+    }
+    13.5% {
+      top: -15px;
+      left: 0px;
+    }
+    18.0% {
+      top: -15px;
+      left: 0px;
+    }
+    22.5% {
+      top: -15px;
+      left: 0px;
+    }
+    27.0% {
+      top: -15px;
+      left: 0px;
+    }
+    31.5% {
+      top: 0px;
+      left: 0px;
+    }
+    36.0% {
+      top: 0px;
+      left: 0px;
+    }
+    40.5% {
+      top: 0px;
+      left: 0px;
+    }
+    45.0% {
+      top: 0px;
+      left: 0px;
+    }
+    49.5% {
+      top: 0px;
+      left: 0px;
+    }
+    54.0% {
+      top: 0px;
+      left: 0px;
+    }
+    58.5% {
+      top: 0px;
+      left: 0px;
+    }
+    63.0% {
+      top: 0px;
+      left: 0px;
+    }
+    67.5% {
+      top: 0px;
+      left: -20px;
+    }
+    72.0% {
+      top: 0px;
+      left: -20px;
+    }
+    76.5% {
+      top: 0px;
+      left: 0px;
+    }
+    81.0% {
+      top: 0px;
+      left: 0px;
+    }
+    85.5% {
+      top: 0px;
+      left: 0px;
+    }
+    100% {
+      top: 0px;
+      left: 0px;
+    }
+  }
+
+  @keyframes letterC {
+    from {
+      top: 0px;
+    }
+    04.5% {
+      top: 15px;
+      left: 0px;
+    }
+    09.0% {
+      top: 15px;
+      left: 0px;
+    }
+    13.5% {
+      top: 15px;
+      left: 0px;
+    }
+    18.0% {
+      top: 15px;
+      left: 0px;
+    }
+    22.5% {
+      top: 15px;
+      left: -24px;
+    }
+    27.0% {
+      top: 15px;
+      left: -24px;
+    }
+    31.5% {
+      top: 30px;
+      left: -24px;
+    }
+    36.0% {
+      top: 30px;
+      left: -24px;
+    }
+    40.5% {
+      top: 30px;
+      left: -46px;
+    }
+    45.0% {
+      top: 30px;
+      left: -46px;
+    }
+    49.5% {
+      top: 30px;
+      left: -46px;
+    }
+    54.0% {
+      top: 30px;
+      left: -46px;
+    }
+    58.5% {
+      top: 30px;
+      left: -24px;
+    }
+    63.0% {
+      top: 30px;
+      left: -24px;
+    }
+    67.5% {
+      top: 30px;
+      left: 0px;
+    }
+    72.0% {
+      top: 30px;
+      left: 0px;
+    }
+    76.5% {
+      top: 30px;
+      left: 0px;
+    }
+    81.0% {
+      top: 30px;
+      left: 0px;
+    }
+    85.5% {
+      top: 0px;
+      left: 0px;
+    }
+    100% {
+      top: 0px;
+      left: 0px;
+    }
+  }
+
+  @keyframes letterK {
+    from {
+      top: 0px;
+    }
+    04.5% {
+      top: -15px;
+      left: 0px;
+    }
+    09.0% {
+      top: -15px;
+      left: 0px;
+    }
+    13.5% {
+      top: 15px;
+      left: 0px;
+    }
+    18.0% {
+      top: 15px;
+      left: 0px;
+    }
+    22.5% {
+      top: 15px;
+      left: -24px;
+    }
+    27.0% {
+      top: 15px;
+      left: -24px;
+    }
+    31.5% {
+      top: 30px;
+      left: -24px;
+    }
+    36.0% {
+      top: 30px;
+      left: -24px;
+    }
+    40.5% {
+      top: 30px;
+      left: -46px;
+    }
+    45.0% {
+      top: 30px;
+      left: -46px;
+    }
+    49.5% {
+      top: 60px;
+      left: -46px;
+    }
+    54.0% {
+      top: 60px;
+      left: -46px;
+    }
+    58.5% {
+      top: 60px;
+      left: -46px;
+    }
+    63.0% {
+      top: 60px;
+      left: -46px;
+    }
+    67.5% {
+      top: 60px;
+      left: -68px;
+    }
+    72.0% {
+      top: 60px;
+      left: -68px;
+    }
+    76.5% {
+      top: 60px;
+      left: 0px;
+    }
+    81.0% {
+      top: 60px;
+      left: 0px;
+    }
+    85.5% {
+      top: 0px;
+      left: 0px;
+    }
+    100% {
+      top: 0px;
+      left: 0px;
+    }
+  }
+
+  @-moz-keyframes letterB {
+    from {
+      top: 0px;
+    }
+    04.5% {
+      top: -15px;
+      left: 0px;
+    }
+    09.0% {
+      top: -15px;
+      left: 0px;
+    }
+    13.5% {
+      top: -15px;
+      left: 0px;
+    }
+    18.0% {
+      top: -15px;
+      left: 0px;
+    }
+    22.5% {
+      top: -15px;
+      left: 0px;
+    }
+    27.0% {
+      top: -15px;
+      left: 0px;
+    }
+    31.5% {
+      top: -30px;
+      left: 0px;
+    }
+    36.0% {
+      top: -30px;
+      left: 0px;
+    }
+    40.5% {
+      top: -30px;
+      left: 40px;
+    }
+    45.0% {
+      top: -30px;
+      left: 40px;
+    }
+    49.5% {
+      top: -60px;
+      left: 40px;
+    }
+    54.0% {
+      top: -60px;
+      left: 40px;
+    }
+    58.5% {
+      top: -60px;
+      left: 40px;
+    }
+    63.0% {
+      top: -60px;
+      left: 40px;
+    }
+    67.5% {
+      top: -60px;
+      left: 20px;
+    }
+    72.0% {
+      top: -60px;
+      left: 20px;
+    }
+    76.5% {
+      top: -60px;
+      left: 0px;
+    }
+    81.0% {
+      top: -60px;
+      left: 0px;
+    }
+    85.5% {
+      top: 0px;
+      left: 0px;
+    }
+    100% {
+      top: 0px;
+      left: 0px;
+    }
+  }
+
+  @-moz-keyframes letterL {
+    from {
+      top: 0px;
+    }
+    04.5% {
+      top: 15px;
+      left: 0px;
+    }
+    09.0% {
+      top: 15px;
+      left: 0px;
+    }
+    13.5% {
+      top: -15px;
+      left: 0px;
+    }
+    18.0% {
+      top: -15px;
+      left: 0px;
+    }
+    22.5% {
+      top: -15px;
+      left: 0px;
+    }
+    27.0% {
+      top: -15px;
+      left: 0px;
+    }
+    31.5% {
+      top: -30px;
+      left: 0px;
+    }
+    36.0% {
+      top: -30px;
+      left: 0px;
+    }
+    40.5% {
+      top: -30px;
+      left: 42px;
+    }
+    45.0% {
+      top: -30px;
+      left: 42px;
+    }
+    49.5% {
+      top: -30px;
+      left: 42px;
+    }
+    54.0% {
+      top: -30px;
+      left: 42px;
+    }
+    58.5% {
+      top: -30px;
+      left: 20px;
+    }
+    63.0% {
+      top: -30px;
+      left: 20px;
+    }
+    67.5% {
+      top: -30px;
+      left: 46px;
+    }
+    72.0% {
+      top: -30px;
+      left: 46px;
+    }
+    76.5% {
+      top: -30px;
+      left: 0px;
+    }
+    81.0% {
+      top: -30px;
+      left: 0px;
+    }
+    85.5% {
+      top: 0px;
+      left: 0px;
+    }
+    100% {
+      top: 0px;
+      left: 0px;
+    }
+  }
+
+  @-moz-keyframes letterO {
+    from {
+      top: 0px;
+    }
+    04.5% {
+      top: -15px;
+      left: 0px;
+    }
+    09.0% {
+      top: -15px;
+      left: 0px;
+    }
+    13.5% {
+      top: -15px;
+      left: 0px;
+    }
+    18.0% {
+      top: -15px;
+      left: 0px;
+    }
+    22.5% {
+      top: -15px;
+      left: 0px;
+    }
+    27.0% {
+      top: -15px;
+      left: 0px;
+    }
+    31.5% {
+      top: 0px;
+      left: 0px;
+    }
+    36.0% {
+      top: 0px;
+      left: 0px;
+    }
+    40.5% {
+      top: 0px;
+      left: 0px;
+    }
+    45.0% {
+      top: 0px;
+      left: 0px;
+    }
+    49.5% {
+      top: 0px;
+      left: 0px;
+    }
+    54.0% {
+      top: 0px;
+      left: 0px;
+    }
+    58.5% {
+      top: 0px;
+      left: 0px;
+    }
+    63.0% {
+      top: 0px;
+      left: 0px;
+    }
+    67.5% {
+      top: 0px;
+      left: -20px;
+    }
+    72.0% {
+      top: 0px;
+      left: -20px;
+    }
+    76.5% {
+      top: 0px;
+      left: 0px;
+    }
+    81.0% {
+      top: 0px;
+      left: 0px;
+    }
+    85.5% {
+      top: 0px;
+      left: 0px;
+    }
+    100% {
+      top: 0px;
+      left: 0px;
+    }
+  }
+
+  @-moz-keyframes letterC {
+    from {
+      top: 0px;
+    }
+    04.5% {
+      top: 15px;
+      left: 0px;
+    }
+    09.0% {
+      top: 15px;
+      left: 0px;
+    }
+    13.5% {
+      top: 15px;
+      left: 0px;
+    }
+    18.0% {
+      top: 15px;
+      left: 0px;
+    }
+    22.5% {
+      top: 15px;
+      left: -24px;
+    }
+    27.0% {
+      top: 15px;
+      left: -24px;
+    }
+    31.5% {
+      top: 30px;
+      left: -24px;
+    }
+    36.0% {
+      top: 30px;
+      left: -24px;
+    }
+    40.5% {
+      top: 30px;
+      left: -46px;
+    }
+    45.0% {
+      top: 30px;
+      left: -46px;
+    }
+    49.5% {
+      top: 30px;
+      left: -46px;
+    }
+    54.0% {
+      top: 30px;
+      left: -46px;
+    }
+    58.5% {
+      top: 30px;
+      left: -24px;
+    }
+    63.0% {
+      top: 30px;
+      left: -24px;
+    }
+    67.5% {
+      top: 30px;
+      left: 0px;
+    }
+    72.0% {
+      top: 30px;
+      left: 0px;
+    }
+    76.5% {
+      top: 30px;
+      left: 0px;
+    }
+    81.0% {
+      top: 30px;
+      left: 0px;
+    }
+    85.5% {
+      top: 0px;
+      left: 0px;
+    }
+    100% {
+      top: 0px;
+      left: 0px;
+    }
+  }
+
+  @-moz-keyframes letterK {
+    from {
+      top: 0px;
+    }
+    04.5% {
+      top: -15px;
+      left: 0px;
+    }
+    09.0% {
+      top: -15px;
+      left: 0px;
+    }
+    13.5% {
+      top: 15px;
+      left: 0px;
+    }
+    18.0% {
+      top: 15px;
+      left: 0px;
+    }
+    22.5% {
+      top: 15px;
+      left: -24px;
+    }
+    27.0% {
+      top: 15px;
+      left: -24px;
+    }
+    31.5% {
+      top: 30px;
+      left: -24px;
+    }
+    36.0% {
+      top: 30px;
+      left: -24px;
+    }
+    40.5% {
+      top: 30px;
+      left: -46px;
+    }
+    45.0% {
+      top: 30px;
+      left: -46px;
+    }
+    49.5% {
+      top: 60px;
+      left: -46px;
+    }
+    54.0% {
+      top: 60px;
+      left: -46px;
+    }
+    58.5% {
+      top: 60px;
+      left: -46px;
+    }
+    63.0% {
+      top: 60px;
+      left: -46px;
+    }
+    67.5% {
+      top: 60px;
+      left: -68px;
+    }
+    72.0% {
+      top: 60px;
+      left: -68px;
+    }
+    76.5% {
+      top: 60px;
+      left: 0px;
+    }
+    81.0% {
+      top: 60px;
+      left: 0px;
+    }
+    85.5% {
+      top: 0px;
+      left: 0px;
+    }
+    100% {
+      top: 0px;
+      left: 0px;
+    }
+  }
+
+  @-webkit-keyframes letterB {
+    from {
+      top: 0px;
+    }
+    04.5% {
+      top: -15px;
+      left: 0px;
+    }
+    09.0% {
+      top: -15px;
+      left: 0px;
+    }
+    13.5% {
+      top: -15px;
+      left: 0px;
+    }
+    18.0% {
+      top: -15px;
+      left: 0px;
+    }
+    22.5% {
+      top: -15px;
+      left: 0px;
+    }
+    27.0% {
+      top: -15px;
+      left: 0px;
+    }
+    31.5% {
+      top: -30px;
+      left: 0px;
+    }
+    36.0% {
+      top: -30px;
+      left: 0px;
+    }
+    40.5% {
+      top: -30px;
+      left: 40px;
+    }
+    45.0% {
+      top: -30px;
+      left: 40px;
+    }
+    49.5% {
+      top: -60px;
+      left: 40px;
+    }
+    54.0% {
+      top: -60px;
+      left: 40px;
+    }
+    58.5% {
+      top: -60px;
+      left: 40px;
+    }
+    63.0% {
+      top: -60px;
+      left: 40px;
+    }
+    67.5% {
+      top: -60px;
+      left: 20px;
+    }
+    72.0% {
+      top: -60px;
+      left: 20px;
+    }
+    76.5% {
+      top: -60px;
+      left: 0px;
+    }
+    81.0% {
+      top: -60px;
+      left: 0px;
+    }
+    85.5% {
+      top: 0px;
+      left: 0px;
+    }
+    100% {
+      top: 0px;
+      left: 0px;
+    }
+  }
+
+  @-webkit-keyframes letterL {
+    from {
+      top: 0px;
+    }
+    04.5% {
+      top: 15px;
+      left: 0px;
+    }
+    09.0% {
+      top: 15px;
+      left: 0px;
+    }
+    13.5% {
+      top: -15px;
+      left: 0px;
+    }
+    18.0% {
+      top: -15px;
+      left: 0px;
+    }
+    22.5% {
+      top: -15px;
+      left: 0px;
+    }
+    27.0% {
+      top: -15px;
+      left: 0px;
+    }
+    31.5% {
+      top: -30px;
+      left: 0px;
+    }
+    36.0% {
+      top: -30px;
+      left: 0px;
+    }
+    40.5% {
+      top: -30px;
+      left: 42px;
+    }
+    45.0% {
+      top: -30px;
+      left: 42px;
+    }
+    49.5% {
+      top: -30px;
+      left: 42px;
+    }
+    54.0% {
+      top: -30px;
+      left: 42px;
+    }
+    58.5% {
+      top: -30px;
+      left: 20px;
+    }
+    63.0% {
+      top: -30px;
+      left: 20px;
+    }
+    67.5% {
+      top: -30px;
+      left: 46px;
+    }
+    72.0% {
+      top: -30px;
+      left: 46px;
+    }
+    76.5% {
+      top: -30px;
+      left: 0px;
+    }
+    81.0% {
+      top: -30px;
+      left: 0px;
+    }
+    85.5% {
+      top: 0px;
+      left: 0px;
+    }
+    100% {
+      top: 0px;
+      left: 0px;
+    }
+  }
+
+  @-webkit-keyframes letterO {
+    from {
+      top: 0px;
+    }
+    04.5% {
+      top: -15px;
+      left: 0px;
+    }
+    09.0% {
+      top: -15px;
+      left: 0px;
+    }
+    13.5% {
+      top: -15px;
+      left: 0px;
+    }
+    18.0% {
+      top: -15px;
+      left: 0px;
+    }
+    22.5% {
+      top: -15px;
+      left: 0px;
+    }
+    27.0% {
+      top: -15px;
+      left: 0px;
+    }
+    31.5% {
+      top: 0px;
+      left: 0px;
+    }
+    36.0% {
+      top: 0px;
+      left: 0px;
+    }
+    40.5% {
+      top: 0px;
+      left: 0px;
+    }
+    45.0% {
+      top: 0px;
+      left: 0px;
+    }
+    49.5% {
+      top: 0px;
+      left: 0px;
+    }
+    54.0% {
+      top: 0px;
+      left: 0px;
+    }
+    58.5% {
+      top: 0px;
+      left: 0px;
+    }
+    63.0% {
+      top: 0px;
+      left: 0px;
+    }
+    67.5% {
+      top: 0px;
+      left: -20px;
+    }
+    72.0% {
+      top: 0px;
+      left: -20px;
+    }
+    76.5% {
+      top: 0px;
+      left: 0px;
+    }
+    81.0% {
+      top: 0px;
+      left: 0px;
+    }
+    85.5% {
+      top: 0px;
+      left: 0px;
+    }
+    100% {
+      top: 0px;
+      left: 0px;
+    }
+  }
+
+  @-webkit-keyframes letterC {
+    from {
+      top: 0px;
+    }
+    04.5% {
+      top: 15px;
+      left: 0px;
+    }
+    09.0% {
+      top: 15px;
+      left: 0px;
+    }
+    13.5% {
+      top: 15px;
+      left: 0px;
+    }
+    18.0% {
+      top: 15px;
+      left: 0px;
+    }
+    22.5% {
+      top: 15px;
+      left: -24px;
+    }
+    27.0% {
+      top: 15px;
+      left: -24px;
+    }
+    31.5% {
+      top: 30px;
+      left: -24px;
+    }
+    36.0% {
+      top: 30px;
+      left: -24px;
+    }
+    40.5% {
+      top: 30px;
+      left: -46px;
+    }
+    45.0% {
+      top: 30px;
+      left: -46px;
+    }
+    49.5% {
+      top: 30px;
+      left: -46px;
+    }
+    54.0% {
+      top: 30px;
+      left: -46px;
+    }
+    58.5% {
+      top: 30px;
+      left: -24px;
+    }
+    63.0% {
+      top: 30px;
+      left: -24px;
+    }
+    67.5% {
+      top: 30px;
+      left: 0px;
+    }
+    72.0% {
+      top: 30px;
+      left: 0px;
+    }
+    76.5% {
+      top: 30px;
+      left: 0px;
+    }
+    81.0% {
+      top: 30px;
+      left: 0px;
+    }
+    85.5% {
+      top: 0px;
+      left: 0px;
+    }
+    100% {
+      top: 0px;
+      left: 0px;
+    }
+  }
+
+  @-webkit-keyframes letterK {
+    from {
+      top: 0px;
+    }
+    04.5% {
+      top: -15px;
+      left: 0px;
+    }
+    09.0% {
+      top: -15px;
+      left: 0px;
+    }
+    13.5% {
+      top: 15px;
+      left: 0px;
+    }
+    18.0% {
+      top: 15px;
+      left: 0px;
+    }
+    22.5% {
+      top: 15px;
+      left: -24px;
+    }
+    27.0% {
+      top: 15px;
+      left: -24px;
+    }
+    31.5% {
+      top: 30px;
+      left: -24px;
+    }
+    36.0% {
+      top: 30px;
+      left: -24px;
+    }
+    40.5% {
+      top: 30px;
+      left: -46px;
+    }
+    45.0% {
+      top: 30px;
+      left: -46px;
+    }
+    49.5% {
+      top: 60px;
+      left: -46px;
+    }
+    54.0% {
+      top: 60px;
+      left: -46px;
+    }
+    58.5% {
+      top: 60px;
+      left: -46px;
+    }
+    63.0% {
+      top: 60px;
+      left: -46px;
+    }
+    67.5% {
+      top: 60px;
+      left: -68px;
+    }
+    72.0% {
+      top: 60px;
+      left: -68px;
+    }
+    76.5% {
+      top: 60px;
+      left: 0px;
+    }
+    81.0% {
+      top: 60px;
+      left: 0px;
+    }
+    85.5% {
+      top: 0px;
+      left: 0px;
+    }
+    100% {
+      top: 0px;
+      left: 0px;
+    }
+  }
+}
