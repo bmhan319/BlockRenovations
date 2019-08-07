@@ -347,7 +347,7 @@ body {
 /* -----Pic-Lg Section----- */
 .section-pic-lg {
   width: 100%;
-  height: 570px;
+  height: auto;
   position: relative;
   display: flex;
   justify-content: center;
@@ -396,7 +396,7 @@ body {
 
 .section-light-grey {
   width: 100%;
-  height: 705px;
+  height: auto;
   margin: 0;
   padding: 0;
   background-color: #e7e7e7;
@@ -414,7 +414,7 @@ body {
 }
 
 .light-grey-col1 {
-  height: 481px;
+  height: auto;
   width: 25%;
   max-width: 280px;
   padding-right: 30px;
@@ -447,8 +447,8 @@ body {
 }
 
 .light-grey-text1 {
-  height: 220px;
-  padding: 0 18px 60px 0;
+  height: auto;
+  padding: 0 18px 0px 0;
   font-weight: 300;
   font-size: 1rem;
   line-height: 25px;
@@ -1033,12 +1033,12 @@ body {
 }
 
 .contact-bar-container {
+  width: 100%;
   display: flex;
-  justify-content: flex-end;
 }
 
 .contact-bar-col1 {
-  width: 100%;
+  width: 50%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -1054,15 +1054,22 @@ body {
 }
 
 .contact-bar-img {
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
 .contact-bar-img3 {
-  width: 39px;
+  width: 29px;
+}
+
+.contact-bar-col2 {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  border-top: 1px solid #000;
 }
 
 .contact-bar-button {
-  width: 291px;
+  width: 289px;
   height: 62px;
   border-radius: 0;
   background-color: #ff7c55;
@@ -1070,7 +1077,7 @@ body {
   font-weight: bold;
   transition: color 0.1s ease-in;
   transition: background-color 0.1s ease-in;
-  border-top: 1px solid #000;
+  border-top: 0;
   border-bottom: 1px solid #000;
   border-left: 1px solid #000;
   outline-width: thin;

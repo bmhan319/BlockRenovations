@@ -3,6 +3,14 @@
   .bathroom-photo {
     background-size: cover;
   }
+
+  .contact-bar-img {
+    padding-left: 20px;
+  }
+
+  .contact-bar-img3 {
+    width: 39px;
+  }
 }
 
 @media only screen and (min-width: 1261px) {
@@ -396,7 +404,7 @@
   }
 
   .pic-lg-container {
-    width: 380px;
+    width: 100%;
     top: 32%;
   }
 
@@ -476,7 +484,7 @@
   }
 
   .pic-bathroom-container {
-    width: 380px;
+    width: 100%;
     top: 32%;
   }
 
@@ -501,35 +509,49 @@
     max-width: none;
     padding: 0 30px;
     margin-bottom: 0;
+    position: relative;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   }
 
   .light-grey-title {
-    position: absolute;
-    padding: 9px 0 14px 0;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 9px 0 0px 0;
     font-size: 2rem;
   }
 
   .light-grey-text2 {
-    position: absolute;
-    top: 51px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
   }
 
   .light-grey-text3 {
-    position: absolute;
-    top: 89px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
   }
 
   .underline {
-    position: relative;
-    top: 126px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
     width: 100%;
   }
 
   .light-grey-text1 {
-    position: absolute;
-    top: 141px;
-    width: 350px;
-    height: auto;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    width: 100%;
     padding: 0;
   }
 
@@ -645,6 +667,16 @@
     position: relative;
     bottom: 0;
     padding: 26px 0 20px;
+  }
+
+  .review-pic {
+    width: 60px;
+    height: 50px;
+  }
+
+  .washed-out-image {
+    height: 50px;
+    width: 60px;
   }
 
   .peach-row3 {
