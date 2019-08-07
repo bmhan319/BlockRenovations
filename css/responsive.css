@@ -778,4 +778,12 @@
   .contact-bar-button {
     width: 250px;
   }
+  .contact-bar-col1 {
+    width: 40%;
+    padding-left: 16px;
+  }
+
+  .contact-bar-col2 {
+    width: 60%;
+  }
 }
