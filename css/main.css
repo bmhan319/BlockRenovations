@@ -1104,7 +1104,7 @@ body {
   width: 50%;
   display: inherit;
   align-items: center;
-  padding-left: 30px;
+  padding-left: 10px;
   color: #fff;
   font-weight: 300;
   font-size: 1rem;
@@ -1113,7 +1113,7 @@ body {
 
 .slide-nav-right {
   justify-content: flex-end;
-  padding-right: 30px;
+  padding-right: 10px;
 }
 
 .zoom-in,
