@@ -28,7 +28,7 @@ window.addEventListener("resize", function() {
 window.onscroll = function() {
   let scrollPos = window.pageYOffset;
   if (scrollPos < 300) {
-    document.getElementById("contact-bar").style.bottom = "-184";
+    document.getElementById("contact-bar").style.bottom = "-84px";
   } else {
     document.getElementById("contact-bar").style.bottom = "-10px";
   }
