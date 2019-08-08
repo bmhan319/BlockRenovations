@@ -3,6 +3,7 @@ let modalCounter = 0;
 let modalNumber = 0;
 let zoomNum = 0;
 let customerIndex = 0;
+let modalOn = false;
 
 let customerReview = [
   {
@@ -44,6 +45,7 @@ let customerReview = [
 function openModal(imageName, location, num, index) {
   const text = document.querySelector(".slide-nav-left");
 
+  modalOn = true;
   customerIndex = index;
   document.getElementById("contact-bar").style.display = "none";
   modalCounter = location;
@@ -129,51 +131,53 @@ function zoomState() {
   const zoomIn = document.querySelector(".zoom-in");
   const zoomOut = document.querySelector(".zoom-out");
 
-  for (let i = 1; i <= length; i++) {
-    let image = document.querySelector(".img" + i);
-    if (window.innerWidth <= 1024) {
-      if (zoomNum == 0) {
-        image.style.padding = "0";
-        image.style.height = "auto";
-        image.style.objectFit = "contain";
-        zoomIn.style.pointerEvents = "auto";
-        zoomOut.style.pointerEvents = "none";
-      }
-      if (zoomNum == 1) {
-        image.style.padding = "0";
-        image.style.height = "70vh";
-        image.style.objectFit = "cover";
-        zoomIn.style.pointerEvents = "auto";
-        zoomOut.style.pointerEvents = "auto";
-      }
-      if (zoomNum == 2) {
-        image.style.padding = "0";
-        image.style.height = "100vh";
-        image.style.objectFit = "none";
-        zoomIn.style.pointerEvents = "none";
-        zoomOut.style.pointerEvents = "auto";
-      }
-    } else if (window.innerWidth > 1024) {
-      if (zoomNum == 0) {
-        image.style.padding = "200px";
-        image.style.height = "auto";
-        image.style.objectFit = "contain";
-        zoomIn.style.pointerEvents = "auto";
-        zoomOut.style.pointerEvents = "none";
-      }
-      if (zoomNum == 1) {
-        image.style.padding = "100px";
-        image.style.height = "auto";
-        image.style.objectFit = "contain";
-        zoomIn.style.pointerEvents = "auto";
-        zoomOut.style.pointerEvents = "auto";
-      }
-      if (zoomNum == 2) {
-        image.style.padding = "0";
-        image.style.height = "auto";
-        image.style.objectFit = "contain";
-        zoomIn.style.pointerEvents = "none";
-        zoomOut.style.pointerEvents = "auto";
+  if (modalOn == true) {
+    for (let i = 1; i <= length; i++) {
+      let image = document.querySelector(".img" + i);
+      if (window.innerWidth <= 1024) {
+        if (zoomNum == 0) {
+          image.style.padding = "0";
+          image.style.height = "auto";
+          image.style.objectFit = "contain";
+          zoomIn.style.pointerEvents = "auto";
+          zoomOut.style.pointerEvents = "none";
+        }
+        if (zoomNum == 1) {
+          image.style.padding = "0";
+          image.style.height = "70vh";
+          image.style.objectFit = "cover";
+          zoomIn.style.pointerEvents = "auto";
+          zoomOut.style.pointerEvents = "auto";
+        }
+        if (zoomNum == 2) {
+          image.style.padding = "0";
+          image.style.height = "100vh";
+          image.style.objectFit = "none";
+          zoomIn.style.pointerEvents = "none";
+          zoomOut.style.pointerEvents = "auto";
+        }
+      } else if (window.innerWidth > 1024) {
+        if (zoomNum == 0) {
+          image.style.padding = "200px";
+          image.style.height = "auto";
+          image.style.objectFit = "contain";
+          zoomIn.style.pointerEvents = "auto";
+          zoomOut.style.pointerEvents = "none";
+        }
+        if (zoomNum == 1) {
+          image.style.padding = "100px";
+          image.style.height = "auto";
+          image.style.objectFit = "contain";
+          zoomIn.style.pointerEvents = "auto";
+          zoomOut.style.pointerEvents = "auto";
+        }
+        if (zoomNum == 2) {
+          image.style.padding = "0";
+          image.style.height = "auto";
+          image.style.objectFit = "contain";
+          zoomIn.style.pointerEvents = "none";
+          zoomOut.style.pointerEvents = "auto";
+        }
       }
     }
   }
@@ -184,6 +188,7 @@ function closeModal() {
   const zoomIn = document.querySelector(".zoom-in");
   const zoomOut = document.querySelector(".zoom-out");
 
+  modalOn = false;
   enableScrolling();
   $(".modal").fadeOut(400);
   document.getElementById("contact-bar").style.display = "block";
@@ -207,7 +212,6 @@ function closeModal() {
 }
 
 // Disable and Enable Scroll
-// Did not write this myself
 // https://stackoverflow.com/questions/4770025/how-to-disable-scrolling-temporarily
 function disableScrolling() {
   var x = window.scrollX;

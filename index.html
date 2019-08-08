@@ -1,156 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Block | Bathroom Renovations</title>
-    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
-    <link rel="stylesheet" type="text/css" href="css/footerLogoAnimation.css" />
     <link rel="stylesheet" type="text/css" href="css/responsive.css" />
-    
+    <link rel="stylesheet" type="text/css" href="css/footerLogoAnimation.css" />
+
     <!-- http://kenwheeler.github.io/slick/ -->
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
 
     <!-- Recreated site from blockrenovations.com. -->
     <!-- Looked into code to gather the following assets: color values, video file and some image files -->
   </head>
-  
+
   <body>
-    
-    <nav class="navbar-mobile">
-      <a href="#">
-        <div class="navbar-m-row navbar-m-row1"><p class="text-m text-m-1">PACKAGES</p></div>
-      </a>
-      <a href="#">
-        <div class="navbar-m-row navbar-m-row2"><p class="text-m text-m-2">HOW IT WORKS</p></div>
-      </a>
-      <a href="#">
-        <div class="navbar-m-row navbar-m-row3"><p class="text-m text-m-3">GALLERY</p></div>
-      </a>
-      <a href="#">
-        <div class="navbar-m-row navbar-m-row4"><p class="text-m text-m-4">REVIEWS</p></div>
-      </a>
-      <div class="navbar-m-row navbar-m-row5">
-        <p class="text-m text-m-5">1-800-557-1445</p>
-        <div>
-          <a href="#" class="nav-m-icon1"><img src="img/phone.ce9fdccb.svg" alt="phone icon" /></a>
-          <a href="#" class="nav-m-icon2"><img src="img/message.be8b7b13.svg" alt="message icon" /></a>
-        </div>
+    <nav class="navbar">
+      <div class="nav-container1">
+        <a href="#"
+          ><img class="logo" src="img/block-logo.svg" alt="BLOCK logo"
+        /></a>
+        <ul class="menu-list">
+          <li class="menu-items menu-item1"><a href="#">PACKAGES</a></li>
+          <li class="menu-items menu-item2"><a href="#">HOW IT WORKS</a></li>
+          <li class="menu-items menu-item3"><a href="#">GALLERY</a></li>
+          <li class="menu-items menu-item4"><a href="#">REVIEWS</a></li>
+        </ul>
       </div>
-      <a href="#">
-        <div class="navbar-m-row navbar-m-row6"><p class="text-m text-m-6">GET AN ESTIMATE</p></div>
-      </a>
+      <div class="nav-container2">
+        <button type="button" class="nav-estimate">GET AN ESTIMATE</button>
+      </div>
+
+      <div id="nav-icon" class="nav-container2-m" onclick="openMenu(this, 1)">
+        <span class="hamburger1"></span>
+        <span class="hamburger2"></span>
+        <span class="hamburger3"></span>
+      </div>
     </nav>
-    
+
     <main class="main-window">
-      <video class="intro-video-d" title="Block Intro Video" autoplay muted loop id="myVideo">
-        <source class="video-type-d" src="img/BLOCK_Header_DESKTOP.mp4" type="video/mp4">
+      <video
+        class="intro-video-d"
+        title="Block Intro Video"
+        autoplay
+        muted
+        loop
+        id="myVideo"
+      >
+        <source
+          class="video-type-d"
+          src="img/BLOCK_Header_DESKTOP.mp4"
+          type="video/mp4"
+        />
         Your browser does not support HTML5 video.
       </video>
-      
-      <video class="intro-video-m" title="Block Intro Video" autoplay muted loop id="myVideoSm">
-        <source class="video-type-m" src="img/BLOCK_Header_Mobile.mp4" type="video/mp4">
+
+      <video
+        class="intro-video-m"
+        title="Block Intro Video"
+        autoplay
+        muted
+        loop
+        id="myVideoSm"
+      >
+        <source
+          class="video-type-m"
+          src="img/BLOCK_Header_Mobile.mp4"
+          type="video/mp4"
+        />
         Your browser does not support HTML5 video.
       </video>
 
-      <nav class="navbar">
-        <div class="nav-container1">
-          <a href="#"><img class="logo" src="img/block-logo.svg" alt="BLOCK logo"/></a>
-          <ul class="menu-list">
-            <li class="menu-items menu-item1"><a href="#">PACKAGES</a></li>
-            <li class="menu-items menu-item2"><a href="#">HOW IT WORKS</a></li>
-            <li class="menu-items menu-item3"><a href="#">GALLERY</a></li>
-            <li class="menu-items menu-item4"><a href="#">REVIEWS</a></li>
-          </ul>
-        </div>
-        <div class="nav-container2">
-          <button type="button" class="nav-estimate">GET AN ESTIMATE</button>
-        </div>
-
-        <div class="nav-container3">
-          <a href="#"><img class="logo" src="img/block-logo.svg" alt="BLOCK logo"/></a>
-        </div>
-        <div id="nav-icon" class="nav-container4" onclick="openMenu(this, 1)">
-          <span class="hamburger1"></span>
-          <span class="hamburger2"></span>
-          <span class="hamburger3"></span>
-        </div>
-      </nav>
-
-      <div class="container-splash">
+      <div class="container-title">
         <h1 class="splash-title">BATHROOM RENOVATION, REINVENTED</h1>
-        <p class="splash-blurb">Beautiful, architect-designed renovation packages delivered reliably from start to end.</p>
-        <button class="splash-button" type="button">GET AN INSTANT ESTIMATE</button>
+      </div>
+      <div class="container-blurb">
+        <p class="splash-blurb">
+          Beautiful, architect-designed renovation packages delivered reliably
+          from start to end.
+        </p>
+        <button class="splash-button" type="button">
+          GET AN INSTANT ESTIMATE
+        </button>
       </div>
     </main>
-    
-    <section class="section-splash-mobile">
-      <div class="container-splash-mobile">
-      <p class="splash-blurb-m">Beautiful, architect-designed renovation packages delivered reliably from start to end.</p>
-      <button class="splash-button-m" type="button">GET AN INSTANT ESTIMATE</button>
-      </div>
-    </section>
-    
+
     <section class="section-beige-desktop">
       <div class="beige-row1">
         <div class="beige-col beige-col1">
-          <img src="img/fast_company_logo_2x.svg" alt="Fast Company logo"/>
-          <p>"Finish it in three weeks, for 25% less than you’d pay a regular contractor."</p>
+          <img src="img/fast_company_logo_2x.svg" alt="Fast Company logo" />
+          <p>
+            "Finish it in three weeks, for 25% less than you’d pay a regular
+            contractor."
+          </p>
         </div>
-    
+
         <div class="beige-col beige-col2">
-          <img src="img/curbed_logo_2x.svg" alt="Curbed logo"/>
+          <img src="img/curbed_logo_2x.svg" alt="Curbed logo" />
           <p>“This startup is on a mission to make home renovations easier"</p>
         </div>
-        
+
         <div class="beige-col beige-col3">
-          <img src="img/r29_logo_2x.svg" alt="Refinery logo"/>
-          <p>"In addition to getting a contractor, you're also getting the eye of a design professional."</p>
+          <img src="img/r29_logo_2x.svg" alt="Refinery logo" />
+          <p>
+            "In addition to getting a contractor, you're also getting the eye of
+            a design professional."
+          </p>
         </div>
-        
+
         <div class="beige-col beige-col4">
-          <img src="img/ad_logo_2x.svg" alt="Architectural Digest logo"/>
-          <p>"All-inclusive packages and ready-to-go designs that simplify the renovation process"</p>
+          <img src="img/ad_logo_2x.svg" alt="Architectural Digest logo" />
+          <p>
+            "All-inclusive packages and ready-to-go designs that simplify the
+            renovation process"
+          </p>
         </div>
-        
+
         <div class="beige-col beige-col5">
-          <img src="img/rd_logo_2x.svg" alt="The Real Deal logo"/>
+          <img src="img/rd_logo_2x.svg" alt="The Real Deal logo" />
           <p>"Shaking up the home renovation industry"</p>
         </div>
       </div>
     </section>
-    
-    <section class="section-beige-mobile">
+
+    <section class="section-beige">
       <div class="center-slide section-beige-container">
         <div class="beige-col beige-col1a">
-          <img src="img/fast_company_logo_2x.svg" alt="Fast Company logo"/>
-          <p>"Finish it in three weeks, for 25% less than you’d pay a regular contractor."</p>
+          <img src="img/fast_company_logo_2x.svg" alt="Fast Company logo" />
+          <p>
+            "Finish it in three weeks, for 25% less than you’d pay a regular
+            contractor."
+          </p>
         </div>
 
         <div class="beige-col beige-col2a">
-          <img src="img/curbed_logo_2x.svg" alt="Curbed logo"/>
+          <img src="img/curbed_logo_2x.svg" alt="Curbed logo" />
           <p>“This startup is on a mission to make home renovations easier"</p>
         </div>
 
         <div class="beige-col beige-col3a">
-          <img src="img/r29_logo_2x.svg" alt="Refinery logo"/>
-          <p>"In addition to getting a contractor, you're also getting the eye of a design professional."</p>
+          <img src="img/r29_logo_2x.svg" alt="Refinery logo" />
+          <p>
+            "In addition to getting a contractor, you're also getting the eye of
+            a design professional."
+          </p>
         </div>
 
         <div class="beige-col beige-col4a">
-          <img src="img/ad_logo_2x.svg" alt="Architectural Digest logo"/>
-          <p>"All-inclusive packages and ready-to-go designs that simplify the renovation process"</p>
+          <img src="img/ad_logo_2x.svg" alt="Architectural Digest logo" />
+          <p>
+            "All-inclusive packages and ready-to-go designs that simplify the
+            renovation process"
+          </p>
         </div>
 
         <div class="beige-col beige-col5a">
-          <img src="img/rd_logo_2x.svg" alt="The Real Deal logo"/>
+          <img src="img/rd_logo_2x.svg" alt="The Real Deal logo" />
           <p>"Shaking up the home renovation industry"</p>
         </div>
       </div>
     </section>
-    
+
     <section class="section-brown">
       <div class="brown-container">
         <div class="brown-row1">
@@ -158,43 +171,74 @@
             <h2>ONE COMPLETE PACKAGE</h2>
           </div>
           <div class="brown-row1-col2">
-            <p>We’ve partnered with the industry’s top architects and builders to unify all aspects of a renovation into simple, affordable packages.</p>
-            <br>
+            <p>
+              We’ve partnered with the industry’s top architects and builders to
+              unify all aspects of a renovation into simple, affordable
+              packages.
+            </p>
+            <br />
             <a class="brown-learn-more" href="#">LEARN MORE</a>
           </div>
         </div>
-      
+
         <div class="brown-row2">
           <div class="brown-row2-col brown-row2-col1">
             <div class="brown-image1-container">
-              <img class="brownImage1" src="img/hiwa_m_3x.jpg" alt="Hands holding tablet"/>
+              <img
+                class="brownImage1"
+                src="img/hiwa_m_3x.jpg"
+                alt="Hands holding tablet"
+              />
               <span class="brown-numbers">01</span>
             </div>
             <div class="brown-text1-container">
-              <h5 class="brown-title brown-title1">TRANSPARENT PRICING & TIMELINES</h5>
-              <p class="brown-text brown-text1">After your initial free estimate, we deliver an all-inclusive proposal based on photos and videos of your space.</p>
+              <h5 class="brown-title brown-title1">
+                TRANSPARENT PRICING & TIMELINES
+              </h5>
+              <p class="brown-text brown-text1">
+                After your initial free estimate, we deliver an all-inclusive
+                proposal based on photos and videos of your space.
+              </p>
             </div>
           </div>
 
           <div class="brown-row2-col brown-row2-col2">
             <div class="brown-image2-container">
-              <img class="brownImage2" src="img/hiwb_m_3x.jpg" alt="various wall tiles"/>
+              <img
+                class="brownImage2"
+                src="img/hiwb_m_3x.jpg"
+                alt="various wall tiles"
+              />
               <span class="brown-numbers">02</span>
             </div>
             <div class="brown-text2-container">
               <h5 class="brown-title brown-title2">SEAMLESS DESIGN</h5>
-              <p class="brown-text brown-text2">We create one complete package with everything needed to build your bathroom: design, detailed drawings, all finish materials, protection, and scheduled deliveries.</p>
+              <p class="brown-text brown-text2">
+                We create one complete package with everything needed to build
+                your bathroom: design, detailed drawings, all finish materials,
+                protection, and scheduled deliveries.
+              </p>
             </div>
           </div>
 
           <div class="brown-row2-col brown-row2-col3">
             <div class="brown-image3-container">
-              <img class="brownImage3" src="img/hiwc_m_3x.jpg" alt="hand drill"/>
+              <img
+                class="brownImage3"
+                src="img/hiwc_m_3x.jpg"
+                alt="hand drill"
+              />
               <span class="brown-numbers">03</span>
             </div>
             <div class="brown-text3-container">
-              <h5 class="brown-title brown-title3">BUILT BY A VETTED BUILDER</h5>
-              <p class="brown-text brown-text3">With plans and fixtures all pre-prepared, you'll be matched with a licensed Block builder and have your bathroom built in an average of 3 weeks.</p>
+              <h5 class="brown-title brown-title3">
+                BUILT BY A VETTED BUILDER
+              </h5>
+              <p class="brown-text brown-text3">
+                With plans and fixtures all pre-prepared, you'll be matched with
+                a licensed Block builder and have your bathroom built in an
+                average of 3 weeks.
+              </p>
             </div>
           </div>
         </div>
@@ -204,51 +248,81 @@
     <section class="section-pic-lg">
       <div class="pic-lg-container">
         <h2 class="pic-lg-title">Quality design made simple.</h2>
-        <button  class="pic-lg-button" type="button">VIEW PACKAGES</button>
+        <button class="pic-lg-button" type="button">VIEW PACKAGES</button>
       </div>
     </section>
-    
+
     <section class="light-blue">
       <div class="light-blue-container">
         <div class="light-blue-row1">
           <h2 class="light-blue-title">HIGHER QUALITY AT A LOWER COST</h2>
-          <p class="light-blue-text">Our all-inclusive renovation model is designed to be efficient while providing more than the standard contractor experience. This leads to a high-quality, consistent result.</p>
+          <p class="light-blue-text">
+            Our all-inclusive renovation model is designed to be efficient while
+            providing more than the standard contractor experience. This leads
+            to a high-quality, consistent result.
+          </p>
         </div>
         <div class="light-blue-row2">
           <div class="light-blue-row2-col1">
             <div class="light-blue-row2-col1-rowa">
               <p class="light-blue-title-a-row2">BLOCK AVG</p>
-              <p class="light-blue-title-b-row2"><span class="dollar-sign">$</span>22k</p>
+              <p class="light-blue-title-b-row2">
+                <span class="dollar-sign">$</span>22k
+              </p>
             </div>
             <div class="light-blue-row2-col1-rowb">
-              <img src="img/checkbox-orange.6ae425d7.svg" alt="orange checkbox icon" />
-              <p class="light-blue-text-row2">All materials precisely ordered and delivered</p>
+              <img
+                src="img/checkbox-orange.6ae425d7.svg"
+                alt="orange checkbox icon"
+              />
+              <p class="light-blue-text-row2">
+                All materials precisely ordered and delivered
+              </p>
             </div>
             <div class="light-blue-row2-col1-rowc">
-              <img src="img/checkbox-orange.6ae425d7.svg" alt="orange checkbox icon" />
-              <p class="light-blue-text-row2">Bespoke, high-fidelity construction drawings</p>
+              <img
+                src="img/checkbox-orange.6ae425d7.svg"
+                alt="orange checkbox icon"
+              />
+              <p class="light-blue-text-row2">
+                Bespoke, high-fidelity construction drawings
+              </p>
             </div>
             <div class="light-blue-row2-col1-rowd">
-              <img src="img/checkbox-orange.6ae425d7.svg" alt="orange checkbox icon" />
-              <p class="light-blue-text-row2">Work with a vetted, licensed builder</p>
+              <img
+                src="img/checkbox-orange.6ae425d7.svg"
+                alt="orange checkbox icon"
+              />
+              <p class="light-blue-text-row2">
+                Work with a vetted, licensed builder
+              </p>
             </div>
             <div class="light-blue-row2-col1-rowe">
-              <img src="img/checkbox-orange.6ae425d7.svg" alt="orange checkbox icon" />
+              <img
+                src="img/checkbox-orange.6ae425d7.svg"
+                alt="orange checkbox icon"
+              />
               <p class="light-blue-text-row2">End-to-end renovation support</p>
             </div>
           </div>
           <div class="light-blue-row2-col2">
             <div class="light-blue-row2-col2-rowa">
               <p class="light-blue-title-a-row2">NY AVG*</p>
-              <p class="light-blue-title-b-row2"><span class="dollar-sign">$</span>28.1k</p>
+              <p class="light-blue-title-b-row2">
+                <span class="dollar-sign">$</span>28.1k
+              </p>
             </div>
             <div class="light-blue-row2-col2-rowb">
               <img class="cross" src="img/cross.f985c9d3.svg" alt="an X icon" />
-              <p class="light-blue-text-row2">Source and order your own materials</p>
+              <p class="light-blue-text-row2">
+                Source and order your own materials
+              </p>
             </div>
             <div class="light-blue-row2-col2-rowc">
               <img class="cross" src="img/cross.f985c9d3.svg" alt="an X icon" />
-              <p class="light-blue-text-row2">Risk build quality without drawings</p>
+              <p class="light-blue-text-row2">
+                Risk build quality without drawings
+              </p>
             </div>
             <div class="light-blue-row2-col2-rowd">
               <img class="cross" src="img/cross.f985c9d3.svg" alt="an X icon" />
@@ -259,50 +333,74 @@
               <p class="light-blue-text-row2">Lack of renovation support</p>
             </div>
             <div class="light-blue-row2-col2-rowf">
-              <a class="remodeler-link" href="https://www.remodeling.hw.net/cost-vs-value/2018/" target="_blank">*According to Remodeler Magazine’s 2018 report</a>
+              <a
+                class="remodeler-link"
+                href="https://www.remodeling.hw.net/cost-vs-value/2018/"
+                target="_blank"
+                >*According to Remodeler Magazine’s 2018 report</a
+              >
             </div>
           </div>
         </div>
       </div>
     </section>
-    
+
     <section class="bathroom-photo">
       <div class="pic-bathroom-container">
         <h2 class="pic-bathroom-title">Build a bathroom for life.</h2>
-        <button  class="pic-bathroom-button" type="button">GET AN ESTIMATE</button>
+        <button class="pic-bathroom-button" type="button">
+          GET AN ESTIMATE
+        </button>
       </div>
     </section>
-    
+
     <section class="section-light-grey">
       <div class="light-grey-container">
         <div class="light-grey-col1">
           <h2 class="light-grey-title">BROWSE PROJECTS</h2>
-          <p class="light-grey-text1">Natural stone and floating fixtures restore light and space to this condo bathroom.</p>
-          <hr class="underline">
+          <p class="light-grey-text1">
+            Natural stone and floating fixtures restore light and space to this
+            condo bathroom.
+          </p>
+          <hr class="underline" />
           <p class="light-grey-text2">PROSPECT HEIGHTS CONDO</p>
           <p class="light-grey-text3">Jamie & Hemali</p>
-          <button class="light-grey-button" type="button">VIEW MORE PROJECTS</button>
+          <button class="light-grey-button" type="button">
+            VIEW MORE PROJECTS
+          </button>
         </div>
-        
+
         <div class="light-grey-col2">
           <div class="light-grey-container2">
-            <img class="light-grey-img" src="img/saurman_cg_1_e7e7e7_3x.jpg" alt="before & after bathroom" />
-            <a id="prevLink" class="prev-link-gone" href="javascript:void(0)"><div class="prev1" onclick="nextImage(-1)"> 
-            </div></a>
-            <a id="nextLink" class="next-link" href="javascript:void(0)"><div class="next1" onclick="nextImage(1)">
-            </div></a>
+            <img
+              class="light-grey-img"
+              src="img/saurman_cg_1_e7e7e7_3x.jpg"
+              alt="before & after bathroom"
+            />
+            <a id="prevLink" class="prev-link-gone" href="javascript:void(0)"
+              ><div class="prev1" onclick="nextImage(-1)"></div
+            ></a>
+            <a id="nextLink" class="next-link" href="javascript:void(0)"
+              ><div class="next1" onclick="nextImage(1)"></div
+            ></a>
           </div>
-          <div class="light-grey-col2-blurb"><p class="light-grey-col2-text">Before & After</p></div>
-          <button class="light-grey-button-m" type="button">VIEW MORE PROJECTS</button>
+          <div class="light-grey-col2-blurb">
+            <p class="light-grey-col2-text">Before & After</p>
+          </div>
+          <button class="light-grey-button-m" type="button">
+            VIEW MORE PROJECTS
+          </button>
         </div>
       </div>
     </section>
-    
+
     <section class="section-peach">
       <div class="peach-container">
         <div class="peach-row1">
           <h2 class="peach-title">CUSTOMER REVIEWS</h2>
-          <p class="peach-text">Learn why customers choose Block for their renovation.</p>
+          <p class="peach-text">
+            Learn why customers choose Block for their renovation.
+          </p>
         </div>
         <div class="peach-row2">
           <div class="peach-row2-col1">
@@ -310,22 +408,67 @@
               <p class="review-name">Hampton C.</p>
               <p class="review-location">CHELSEA CONDO</p>
               <span class="review-stars">
-                <img class="review-star" src="img/star-full.2807d36d.svg" alt="star" />
-                <img class="review-star" src="img/star-full.2807d36d.svg" alt="star" />
-                <img class="review-star" src="img/star-full.2807d36d.svg" alt="star" />
-                <img class="review-star" src="img/star-full.2807d36d.svg" alt="star" />
-                <img class="review-star" src="img/star-full.2807d36d.svg" alt="star" />
+                <img
+                  class="review-star"
+                  src="img/star-full.2807d36d.svg"
+                  alt="star"
+                />
+                <img
+                  class="review-star"
+                  src="img/star-full.2807d36d.svg"
+                  alt="star"
+                />
+                <img
+                  class="review-star"
+                  src="img/star-full.2807d36d.svg"
+                  alt="star"
+                />
+                <img
+                  class="review-star"
+                  src="img/star-full.2807d36d.svg"
+                  alt="star"
+                />
+                <img
+                  class="review-star"
+                  src="img/star-full.2807d36d.svg"
+                  alt="star"
+                />
               </span>
-              <h3 class="review-headline">So happy they gave us our dream bathrooms</h3>
-              <p class="review-text">We bought our new place in Manhattan and weren't in love with the bathrooms. They were big, which was great, but the space was badly utilized and they didn't fit our style at all.</p>
+              <h3 class="review-headline">
+                So happy they gave us our dream bathrooms
+              </h3>
+              <p class="review-text">
+                We bought our new place in Manhattan and weren't in love with
+                the bathrooms. They were big, which was great, but the space was
+                badly utilized and they didn't fit our style at all.
+              </p>
               <a class="review-link" href="#">READ MORE</a>
               <div class="review-thumbnails">
-                <img onclick="openModal('hcr', 0, 1, 0)" class="review-pic review-pic1" src="img/hcr1_t_3x.jpg" alt="bathroom thumbnail" />
-                <img onclick="openModal('hcr', 100, 2, 0)" class="review-pic review-pic2" src="img/hcr2_t_3x.jpg" alt="bathroom vanity thumbnail" />
+                <img
+                  onclick="openModal('hcr', 0, 1, 0)"
+                  class="review-pic review-pic1"
+                  src="img/hcr1_t_3x.jpg"
+                  alt="bathroom thumbnail"
+                />
+                <img
+                  onclick="openModal('hcr', 100, 2, 0)"
+                  class="review-pic review-pic2"
+                  src="img/hcr2_t_3x.jpg"
+                  alt="bathroom vanity thumbnail"
+                />
                 <div class="washed-out-image">
-                  <img onclick="openModal('hcr', 200, 3, 0)" class="review-pic review-pic3a" src="img/hcr3_lb_3x.jpg" alt="bathtub thumbnail" />
-                  <span onclick="openModal('hcr', 200, 3, 0)" class="review-pic-num">+ 2</span>
-                </div>              
+                  <img
+                    onclick="openModal('hcr', 200, 3, 0)"
+                    class="review-pic review-pic3a"
+                    src="img/hcr3_lb_3x.jpg"
+                    alt="bathtub thumbnail"
+                  />
+                  <span
+                    onclick="openModal('hcr', 200, 3, 0)"
+                    class="review-pic-num"
+                    >+ 2</span
+                  >
+                </div>
               </div>
             </div>
           </div>
@@ -334,19 +477,60 @@
               <p class="review-name">Sarah F.</p>
               <p class="review-location">CHELSEA CONDO</p>
               <span class="review-stars">
-                <img class="review-star" src="img/star-full.2807d36d.svg" alt="star">
-                <img class="review-star" src="img/star-full.2807d36d.svg" alt="star">
-                <img class="review-star" src="img/star-full.2807d36d.svg" alt="star">
-                <img class="review-star" src="img/star-full.2807d36d.svg" alt="star">
-                <img class="review-star" src="img/star-full.2807d36d.svg" alt="star">
+                <img
+                  class="review-star"
+                  src="img/star-full.2807d36d.svg"
+                  alt="star"
+                />
+                <img
+                  class="review-star"
+                  src="img/star-full.2807d36d.svg"
+                  alt="star"
+                />
+                <img
+                  class="review-star"
+                  src="img/star-full.2807d36d.svg"
+                  alt="star"
+                />
+                <img
+                  class="review-star"
+                  src="img/star-full.2807d36d.svg"
+                  alt="star"
+                />
+                <img
+                  class="review-star"
+                  src="img/star-full.2807d36d.svg"
+                  alt="star"
+                />
               </span>
-              <h3 class="review-headline">Very helpful throughout the renovation process</h3>
-              <p class="review-text">Very helpful throughout the renovation process, which can at times seem overwhelming. I'm extremely happy with the end result and their professionalism!</p>
+              <h3 class="review-headline">
+                Very helpful throughout the renovation process
+              </h3>
+              <p class="review-text">
+                Very helpful throughout the renovation process, which can at
+                times seem overwhelming. I'm extremely happy with the end result
+                and their professionalism!
+              </p>
               <a class="review-link" href="#">READ MORE</a>
               <div class="review-thumbnails">
-                <img onclick="openModal('sfr', 0, 1, 1)" class="review-pic review-pic1" src="img/sfr1_t_3x.jpg" alt="bathroom thumbnail" />
-                <img onclick="openModal('sfr', 100, 2, 1)" class="review-pic review-pic2" src="img/sfr2_t_3x.jpg" alt="bathroom vanity thumbnail" />
-                <img onclick="openModal('sfr', 200, 3, 1)" class="review-pic review-pic3" src="img/sfr3_t_3x.jpg" alt="shower thumbnail" />
+                <img
+                  onclick="openModal('sfr', 0, 1, 1)"
+                  class="review-pic review-pic1"
+                  src="img/sfr1_t_3x.jpg"
+                  alt="bathroom thumbnail"
+                />
+                <img
+                  onclick="openModal('sfr', 100, 2, 1)"
+                  class="review-pic review-pic2"
+                  src="img/sfr2_t_3x.jpg"
+                  alt="bathroom vanity thumbnail"
+                />
+                <img
+                  onclick="openModal('sfr', 200, 3, 1)"
+                  class="review-pic review-pic3"
+                  src="img/sfr3_t_3x.jpg"
+                  alt="shower thumbnail"
+                />
               </div>
             </div>
           </div>
@@ -356,7 +540,7 @@
         </div>
       </div>
     </section>
-    
+
     <footer class="footer">
       <div class="footer-container">
         <div class="footer-col footer-col1">
@@ -367,8 +551,14 @@
           <p class="footer-col1-text1 letter-K">K</p>
         </div>
         <div class="footer-col footer-col2">
-          <p class="footer-col2-text1">Block simplifies the chaos and costs of construction by bringing design, sourcing, and management all under one roof.</p>
-          <p class="footer-col2-text2">© Block 2018. We are a licensed general contractor in NY (license #: 2065435-DCA) and NJ (license #: 13VH10270600).</p>
+          <p class="footer-col2-text1">
+            Block simplifies the chaos and costs of construction by bringing
+            design, sourcing, and management all under one roof.
+          </p>
+          <p class="footer-col2-text2">
+            © Block 2018. We are a licensed general contractor in NY (license #:
+            2065435-DCA) and NJ (license #: 13VH10270600).
+          </p>
         </div>
         <div class="footer-col footer-col3">
           <ul>
@@ -396,7 +586,7 @@
         </div>
       </div>
     </footer>
-    
+
     <section class="modal modal-off">
       <div class="modal-nav">
         <span class="slide-nav-left"></span>
@@ -410,38 +600,104 @@
       <div class="modal-image dragContainer">
         <div class="modal-image-container"></div>
         <span onclick="modalSlides(-100, -1)" class="slide-left-arrow">
-          <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="20" height="34" fill="#FFF">
-            <path d="m 1,3 2,-2 16,16 -16,16 -1,-1 15,-15 -15,-15 z"/>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            version="1.1"
+            width="20"
+            height="34"
+            fill="#FFF"
+          >
+            <path d="m 1,3 2,-2 16,16 -16,16 -1,-1 15,-15 -15,-15 z" />
           </svg>
         </span>
         <span onclick="modalSlides(100, 1)" class="slide-right-arrow">
-          <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="20" height="34" fill="#FFF">
-            <path d="m 1,3 2,-2 16,16 -16,16 -1,-1 15,-15 -15,-15 z"/>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            version="1.1"
+            width="20"
+            height="34"
+            fill="#FFF"
+          >
+            <path d="m 1,3 2,-2 16,16 -16,16 -1,-1 15,-15 -15,-15 z" />
           </svg>
         </span>
       </div>
     </section>
-    
+
     <section id="contact-bar" class="contact-bar">
       <div class="contact-bar-container">
         <div class="contact-bar-col1">
           <p class="contactQuestion">Ask a question</p>
-          <a href="#"><img class="contact-bar-img contact-bar-img1" src="img/phone.ce9fdccb.svg" alt="phone icon"></a>
-          <a href="#"><img class="contact-bar-img contact-bar-img2" src="img/message.be8b7b13.svg" alt="message icon"></a>
-          <a href="#"><img class="contact-bar-img contact-bar-img3" src="img/envelope.cd7c2d2b.svg" alt="mail icon"></a>
+          <a href="#"
+            ><img
+              class="contact-bar-img contact-bar-img1"
+              src="img/phone.ce9fdccb.svg"
+              alt="phone icon"
+          /></a>
+          <a href="#"
+            ><img
+              class="contact-bar-img contact-bar-img2"
+              src="img/message.be8b7b13.svg"
+              alt="message icon"
+          /></a>
+          <a href="#"
+            ><img
+              class="contact-bar-img contact-bar-img3"
+              src="img/envelope.cd7c2d2b.svg"
+              alt="mail icon"
+          /></a>
         </div>
         <span class="contact-bar-col2">
-          <button class="contact-bar-button" type="button">GET AN ESTIMATE</button>
+          <button class="contact-bar-button" type="button">
+            GET AN ESTIMATE
+          </button>
         </span>
       </div>
     </section>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="slick/slick.js"></script>
-  <script src="js/main.js"></script>
-  <script src="js/slideshow.js"></script>
-  <script src="js/modal.js"></script>
-    
+    <nav class="navbar-mobile">
+      <a href="#">
+        <div class="navbar-m-row navbar-m-row1">
+          <p class="text-m text-m-1">PACKAGES</p>
+        </div>
+      </a>
+      <a href="#">
+        <div class="navbar-m-row navbar-m-row2">
+          <p class="text-m text-m-2">HOW IT WORKS</p>
+        </div>
+      </a>
+      <a href="#">
+        <div class="navbar-m-row navbar-m-row3">
+          <p class="text-m text-m-3">GALLERY</p>
+        </div>
+      </a>
+      <a href="#">
+        <div class="navbar-m-row navbar-m-row4">
+          <p class="text-m text-m-4">REVIEWS</p>
+        </div>
+      </a>
+      <div class="navbar-m-row navbar-m-row5">
+        <p class="text-m text-m-5">1-800-557-1445</p>
+        <div>
+          <a href="#" class="nav-m-icon1"
+            ><img src="img/phone.ce9fdccb.svg" alt="phone icon"
+          /></a>
+          <a href="#" class="nav-m-icon2"
+            ><img src="img/message.be8b7b13.svg" alt="message icon"
+          /></a>
+        </div>
+      </div>
+      <a href="#">
+        <div class="navbar-m-row navbar-m-row6">
+          <p class="text-m text-m-6">GET AN ESTIMATE</p>
+        </div>
+      </a>
+    </nav>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="slick/slick.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/slideshow.js"></script>
+    <script src="js/modal.js"></script>
   </body>
 </html>
-
