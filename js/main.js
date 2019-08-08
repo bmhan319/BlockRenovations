@@ -68,8 +68,16 @@ $(document).ready(function() {
 
 // Load Both Intro Videos
 window.addEventListener("load", function myfunction() {
+  const w = window.matchMedia("(max-width: 989px)");
   const vidM = document.getElementById("myVideoM");
   const vidD = document.getElementById("myVideoD");
-  vidM.load();
-  vidD.load();
+  if (w.matches) {
+    vidM.pause();
+    vidM.load();
+    vidM.play();
+  } else {
+    vidD.pause();
+    vidD.load();
+    vidD.play();
+  }
 });
