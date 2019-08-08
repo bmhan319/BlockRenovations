@@ -183,28 +183,11 @@ body {
   padding-top: 40px;
 }
 
-.beige-col1a img {
-  width: 135px;
-  margin: 0 auto;
-}
-
-.beige-col2a img {
-  width: 79px;
-  margin: 0 auto;
-}
-
-.beige-col3a img {
-  width: 124px;
-  margin: 0 auto;
-}
-
-.beige-col4a img {
-  width: 165px;
-  margin: 0 auto;
-}
-
+.beige-col1a img,
+.beige-col2a img,
+.beige-col3a img,
+.beige-col4a img,
 .beige-col5a img {
-  width: 125px;
   margin: 0 auto;
 }
 
