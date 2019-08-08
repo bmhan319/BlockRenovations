@@ -67,17 +67,34 @@ $(document).ready(function() {
 });
 
 // Load Both Intro Videos
+const w = window.matchMedia("(max-width: 989px)");
+const vid = document.getElementById("myVideo");
+const source = document.getElementById("hvid");
+
 window.addEventListener("load", function myfunction() {
-  const w = window.matchMedia("(max-width: 989px)");
-  const vidM = document.getElementById("myVideoM");
-  const vidD = document.getElementById("myVideoD");
   if (w.matches) {
-    vidM.pause();
-    vidM.load();
-    vidM.play();
+    vid.pause();
+    source.src = "img/BLOCK_Header_Mobile.mp4";
+    vid.load();
+    vid.play();
   } else {
-    vidD.pause();
-    vidD.load();
-    vidD.play();
+    vid.pause();
+    source.src = "img/BLOCK_Header_Desktop.mp4";
+    vid.load();
+    vid.play();
+  }
+});
+
+window.addEventListener("resize", function myfunction() {
+  if (w.matches) {
+    vid.pause();
+    source.removeAttribute("src");
+    source.src = "img/BLOCK_Header_Mobile.mp4";
+    vid.load();
+  } else {
+    vid.pause();
+    source.removeAttribute("src");
+    source.src = "img/BLOCK_Header_Desktop.mp4";
+    vid.load();
   }
 });

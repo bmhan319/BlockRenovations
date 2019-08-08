@@ -23,14 +23,6 @@ body {
   position: relative;
 }
 
-.video-m {
-  display: block;
-}
-
-.video-d {
-  display: none;
-}
-
 /* -----Nav Bar----- */
 .navbar {
   background-color: #eee;

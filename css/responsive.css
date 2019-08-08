@@ -14,15 +14,6 @@
 }
 
 @media only screen and (min-width: 990px) {
-  /* -----Main Page----- */
-  .video-m {
-    display: none;
-  }
-
-  .video-d {
-    display: block;
-  }
-
   /* -----Nav Bar----- */
   .navbar {
     background-color: transparent;
