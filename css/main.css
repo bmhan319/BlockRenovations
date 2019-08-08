@@ -16,16 +16,18 @@ body {
   position: relative;
 }
 
-.intro-video-m,
-.intro-video-d {
+.intro-video {
   width: 100%;
   object-fit: contain;
   object-position: center;
-  display: block;
   position: relative;
 }
 
-.intro-video-d {
+.video-m {
+  display: block;
+}
+
+.video-d {
   display: none;
 }
 

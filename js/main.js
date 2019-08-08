@@ -65,3 +65,11 @@ $(document).ready(function() {
     ]
   });
 });
+
+// Load Both Intro Videos
+window.addEventListener("load", function myfunction() {
+  const vidM = document.getElementById("myVideoM");
+  const vidD = document.getElementById("myVideoD");
+  vidM.load();
+  vidD.load();
+});

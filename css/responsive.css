@@ -15,11 +15,11 @@
 
 @media only screen and (min-width: 990px) {
   /* -----Main Page----- */
-  .intro-video-m {
+  .video-m {
     display: none;
   }
 
-  .intro-video-d {
+  .video-d {
     display: block;
   }
 
